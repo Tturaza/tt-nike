@@ -1,0 +1,84 @@
+{
+    "popularRightNow": [
+      {
+        "id": 1,
+        "name": "Nike Air Force 1",
+        "price": 100,
+        "image": "nike_air_force_1.jpg",
+        "description": "Iconic basketball shoes with classic style."
+      },
+
+      {
+        "id": 2,
+        "name": "Nike Air Force 1",
+        "price": 100,
+        "image": "nike_air_force_1.jpg",
+        "description": "Iconic basketball shoes with classic style."
+      },
+
+      {
+        "id": 3,
+        "name": "Nike Air Force 1",
+        "price": 100,
+        "image": "nike_air_force_1.jpg",
+        "description": "Iconic basketball shoes with classic style."
+      },
+
+      {
+        "id": 4,
+        "name": "Nike Air Max 90",
+        "price": 120,
+        "image": "nike_air_max_90.jpg",
+        "description": "Comfortable running shoes with a retro design."
+      },
+
+      {
+        "id": 5,
+        "name": "Nike Air Jordan 1",
+        "price": 150,
+        "image": "nike_air_jordan_1.jpg",
+        "description": "Legendary basketball shoes designed by Michael Jordan."
+      },
+      
+      {
+        "id": 6,
+        "name": "Nike Air Force 1",
+        "price": 100,
+        "image": "nike_air_force_1.jpg",
+        "description": "Iconic basketball shoes with classic style."
+      },
+
+      {
+        "id": 7,
+        "name": "Nike Air Max 90",
+        "price": 120,
+        "image": "nike_air_max_90.jpg",
+        "description": "Comfortable running shoes with a retro design."
+      },
+
+      {
+        "id": 8,
+        "name": "Nike Air Jordan 1",
+        "price": 150,
+        "image": "nike_air_jordan_1.jpg",
+        "description": "Legendary basketball shoes designed by Michael Jordan."
+      },
+
+      {
+        "id": 9,
+        "name": "Nike Air Jordan 1",
+        "price": 150,
+        "image": "nike_air_jordan_1.jpg",
+        "description": "Legendary basketball shoes designed by Michael Jordan."
+      },
+      
+      {
+        "id": 10,
+        "name": "10",
+        "price": 150,
+        "image": "10",
+        "description": "Legendary basketball shoes designed by Michael Jordan."
+      }
+
+    ]
+  }
