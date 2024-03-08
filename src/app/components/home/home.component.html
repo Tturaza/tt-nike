@@ -5,7 +5,7 @@
         <div class="child-container">
             
             <div class="main-photo-div">
-                <img class="main-photo" src="assets/main-photo.jpg" alt="">
+                <img class="main-photo" src="assets/images/main-photo.jpg" alt="">
             </div>
     
             <div class="mphoto-description-div">
@@ -20,12 +20,26 @@
                 
             </div>
 
-            <div class="popular-right-now-div" *ngFor="let shoe of popularShoes">
-                <div>
-                    
-                </div>
+            <div style="display: flex; column-gap: 6px;">
+                <div *ngFor="let shoe of popularShoes">
 
+                    <div class="popular-main-card">
+    
+                        <div class="popular-card-image-div">
+                            <img [src]="shoe.image" class="popular-card-image" alt="">
+                        </div>
+    
+                        <div>
+                            <h3>{{shoe.name}}</h3>
+                            <small>{{shoe.style}}</small>
+                            <p>{{shoe.price}}</p>
+                        </div>
+    
+                    </div>
+    
+                </div>
             </div>
+          
     
         </div>
         
