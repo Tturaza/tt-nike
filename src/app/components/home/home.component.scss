@@ -1,6 +1,7 @@
 .first-section{
     width: 100%;
     .container{
+        max-width: 100vmax;
 
         .child-container{
 
@@ -23,8 +24,35 @@
             }
 
             .popular-right-now-div{
-                
+                    width: 100%;
 
+
+
+                    .card{
+                        display: flex;
+                        width: 100%;
+                        overflow-y: hidden;
+                        overflow-x: hidden;
+                        padding: 0px 30px;
+
+                        .follow-div{
+                            img{
+                                width: 450px;
+                                margin-right: 20px;
+                            }
+
+                            .card-description-div{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                row-gap: 5px;
+
+                                .name-p{font-size: 19px;}
+                                .style-small{color: #707072; font-size: 16px; display: block;}
+
+                            }
+                        }
+                    }
             }
         }
     }

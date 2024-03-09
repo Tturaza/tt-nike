@@ -5,7 +5,7 @@
         <div class="child-container">
             
             <div class="main-photo-div">
-                <img class="main-photo" src="assets/images/main-photo.jpg" alt="">
+                <img class="main-photo" src="assets/images/pop.jpg" alt="">
             </div>
     
             <div class="mphoto-description-div">
@@ -19,28 +19,26 @@
             <div class="classics-spotlight">
                 
             </div>
-
-            <div style="display: flex; column-gap: 6px;">
-                <div *ngFor="let shoe of popularShoes">
-
-                    <div class="popular-main-card">
+            
+            <div class="popular-right-now-div">
+                <div class="card" #popularNow  (mousedown)="onMouseDown(popularNow, $event)" (mouseleave)="onMouseLeave(popularNow)" (mouseup)="onMouseUp(popularNow)" (mousemove)="onMouseMove(popularNow, $event)">
+                    <ng-container *ngFor="let shoe of popularShoes">
+                        <div class="follow-div">
+                            <div class="image-div">
+                                <img [src]="shoe.image" alt="">
+                            </div>
+                   
+                            <div class="card-description-div">
+                                <p class="name-p">{{shoe.name}}</p>
+                                <small class="style-small">{{shoe.style}}</small>
+                                <p class="price-p">{{shoe.price}}$</p>
+                            </div>
     
-                        <div class="popular-card-image-div">
-                            <img [src]="shoe.image" class="popular-card-image" alt="">
                         </div>
-    
-                        <div>
-                            <h3>{{shoe.name}}</h3>
-                            <small>{{shoe.style}}</small>
-                            <p>{{shoe.price}}</p>
-                        </div>
-    
-                    </div>
-    
+                        
+                    </ng-container>
                 </div>
             </div>
-          
-    
         </div>
         
     </div>
@@ -52,3 +50,21 @@
 
 
 </section>
+
+
+
+
+
+<!--                 
+                            <div class="popular-main-card">
+            
+                                <div class="popular-card-image-div">
+                                    <img [src]="shoe.image" class="popular-card-image" alt="">
+                                </div>
+            
+                                <div class="name-st-pr-description-div">
+                                    <h3>{{shoe.name}}</h3>
+                                    <small>{{shoe.style}}</small>
+                                    <p>{{shoe.price}}</p>
+                                </div> -->
+                            <!-- </div> -->
