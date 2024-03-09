@@ -18,6 +18,7 @@
     
             <div class="classics-spotlight">
                 
+                
             </div>
             
             <div class="popular-right-now-div">
@@ -25,7 +26,7 @@
                     <ng-container *ngFor="let shoe of popularShoes">
                         <div class="follow-div">
                             <div class="image-div">
-                                <img [src]="shoe.image" alt="">
+                                <img [src]="shoe.image" [routerLink]="['/shoeDetails/', shoe.id]">
                             </div>
                    
                             <div class="card-description-div">
@@ -33,7 +34,6 @@
                                 <small class="style-small">{{shoe.style}}</small>
                                 <p class="price-p">{{shoe.price}}$</p>
                             </div>
-    
                         </div>
                         
                     </ng-container>
