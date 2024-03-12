@@ -7,18 +7,6 @@ import { MyServiceService } from 'src/app/service/my-service.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  popularShoes : any;
-
-  constructor(private popularServ : MyServiceService){}
-
-  ngOnInit(): void {
-    this.popularServ.getPopularRightNow().subscribe( respo => {
-      this.popularShoes = respo.popularRightNow
-      console.log(this.popularShoes)
-    })
-  }
-
   @ViewChildren('popularNow') trendingMovies!: QueryList<ElementRef>;
   
   private isMouseDownMap = new Map<HTMLDivElement, boolean>();
@@ -54,4 +42,36 @@ export class HomeComponent implements OnInit {
     }
 }
 
+
+
+
+  popularShoes : any;
+  classicShoes : any;
+
+  constructor(private popularServ : MyServiceService){}
+
+  ngOnInit(): void {
+    this.getPopularRightNow()
+    this.getClassicProduct()
+
+  }
+
+
+
+  getPopularRightNow(){
+    this.popularServ.getPopularRightNow().subscribe( respo => {
+      this.popularShoes = respo.popularRightNow
+      console.log(this.popularShoes)
+    })
+  }
+
+
+  getClassicProduct(){
+    this.popularServ.getClassicProduct().subscribe(respo =>{
+      this.classicShoes = respo.classicShoe
+      console.log(this.classicShoes)
+    })
+  }
+
+  
 }
