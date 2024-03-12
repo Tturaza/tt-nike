@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
   popularShoes : any;
   classicShoes : any;
 
-  constructor(private popularServ : MyServiceService){}
+  constructor(private serv : MyServiceService){}
 
   ngOnInit(): void {
     this.getPopularRightNow()
@@ -59,7 +59,7 @@ export class HomeComponent implements OnInit {
 
 
   getPopularRightNow(){
-    this.popularServ.getPopularRightNow().subscribe( respo => {
+    this.serv.getPopularRightNow().subscribe( respo => {
       this.popularShoes = respo.popularRightNow
       console.log(this.popularShoes)
     })
@@ -67,7 +67,7 @@ export class HomeComponent implements OnInit {
 
 
   getClassicProduct(){
-    this.popularServ.getClassicProduct().subscribe(respo =>{
+    this.serv.getClassicProduct().subscribe(respo =>{
       this.classicShoes = respo.classicShoe
       console.log(this.classicShoes)
     })

@@ -1,48 +1,48 @@
 {
-    "classicShoe": [
-      {
-        "id": 1,
-        "name": "",
-        "price": 130,
-        "image": "assets/classic-images/1.png",
-        "description": "",
-        "style" : ""
-      },
+  "classicShoe": [
+    {
+      "id": 1,
+      "name": "",
+      "price": 130,
+      "image": "assets/classic-images/1.jpg",
+      "description": "",
+      "style" : ""
+    },
 
-      {
-        "id": 2,
-        "name": "",
-        "price": 200,
-        "image": "assets/classic-images/2.png",
-        "description": "",
-        "style" : ""
-      },
+    {
+      "id": 2,
+      "name": "",
+      "price": 200,
+      "image": "assets/classic-images/2.png",
+      "description": "",
+      "style" : ""
+    },
 
-      {
-        "id": 3,
-        "name": "",
-        "price": 110,
-        "image": "assets/classic-images/3.png",
-        "description": "",
-        "style" : ""
-      },
+    {
+      "id": 3,
+      "name": "",
+      "price": 110,
+      "image": "assets/classic-images/3.jpg",
+      "description": "",
+      "style" : ""
+    },
 
-      {
-        "id": 4,
-        "name": "",
-        "price": 160,
-        "image": "assets/classic-images/4.png",
-        "description": "",
-        "style" : ""
-      },
+    {
+      "id": 4,
+      "name": "",
+      "price": 160,
+      "image": "assets/classic-images/4.jpg",
+      "description": "",
+      "style" : ""
+    },
 
-      {
-        "id": 5,
-        "name": "",
-        "price": 210,
-        "image": "assets/classic-images/do.png",
-        "description": "",
-        "style" : ""
-      }
-    ]
-  }
+    {
+      "id": 5,
+      "name": "",
+      "price": 210,
+      "image": "assets/classic-images/5.jpg",
+      "description": "",
+      "style" : ""
+    }
+  ]
+}

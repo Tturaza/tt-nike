@@ -17,10 +17,10 @@
             </div>
     
             <div class="classics-spotlight">
-                <div class="classic-card">
-                    <ng-container *ngFor="let pshoe of popularShoes">
-                        <img [src]="pshoe.image" alt="">
-                    </ng-container>
+                <div class="card-slide">
+                    <ng-container *ngFor="let shoe of classicShoes">
+                        <img [src]="shoe.image" [routerLink]="['/shoeDetails/' , shoe.id]">
+                    </ng-container>    
                 </div>
                 
             </div>
@@ -39,7 +39,6 @@
                                 <p class="price-p">{{shoe.price}}$</p>
                             </div>
                         </div>
-                        
                     </ng-container>
                 </div>
             </div>

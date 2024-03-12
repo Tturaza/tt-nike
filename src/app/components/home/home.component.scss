@@ -20,13 +20,33 @@
             }
 
             .classics-spotlight{
+                overflow: hidden;
+                padding: 60px 0;
+               
 
+                &:hover{
+                    animation-play-state: paused;
+                }
+
+                .card-slide{
+                    animation: 2s slide infinite linear;
+                    white-space: nowrap;
+
+                    &:hover{
+                        animation-play-state: paused;
+                    }
+
+                    img{
+                        width: 270px;
+                        margin:0 15px;
+                    }
+                }
             }
+
+       
 
             .popular-right-now-div{
                     width: 100%;
-
-
 
                     .card{
                         display: flex;
@@ -56,4 +76,10 @@
             }
         }
     }
+}
+
+
+@keyframes slide {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
 }
