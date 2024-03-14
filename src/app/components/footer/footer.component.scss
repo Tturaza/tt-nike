@@ -1,6 +1,7 @@
 footer{
 
     background: #111111;
+    margin-top: 50px;
    
     
     .footer-container{
@@ -8,18 +9,23 @@ footer{
         margin-left: auto;
         margin-right: auto;
         padding-top:60px;
-        padding-bottom: 100px;
+        padding-bottom: 35px;
         padding-left: 40px;
         padding-right: 40px;
         display: flex;
         flex-direction: column;
+        row-gap: 80px;
 
         .top-div{
             display: flex;
             flex-direction: row;
+            width: 100%;
+            
 
             .left-box-t{
                 display: flex;
+                width: 80%;
+                column-gap: 10px;
 
                 .first-list-div,
                 .seconde-list-div,
@@ -27,16 +33,37 @@ footer{
                 .forth-list-div{
                     display: flex;
                     flex-direction: column;
-                    row-gap: 5px;
+                    row-gap: 15px;
+                    width: 25%;
 
-                    p{color: white;}
-                    small{color: #7e7e7e;}
-                    a{color: #7e7e7e;}
+                    p{color: white; cursor: pointer; font-weight: 600;}
+                    small{color: #7e7e7e; font-weight: 600; cursor: pointer; &:hover{color: white;}}
+                    a{color: #7e7e7e; cursor: pointer;}
+                }
+
+                .first-list-div{
+                    p{font-size: 15px;}
                 }
             }
 
             .right-box-t{
+                display: flex;
+                width: 20%;
+                justify-content: end;
 
+                ul{
+                    display: flex;
+                    column-gap: 10px;
+
+                    li{
+                        a{
+                            img{
+                                width: 40px;
+                            }
+                        }
+                    }
+                    
+                }
             }
         }
 
@@ -45,6 +72,44 @@ footer{
             width: 100%;
             justify-content: space-between;
             align-items: center;
+
+            .left-box-b{
+                display: flex;
+                column-gap: 15px;
+                align-items: center;
+                color: white;
+
+                img{width: 18px;}
+                
+                small{
+                    font-size: 11px;
+                    font-weight: 500;
+                }
+
+                p{
+                    color: #7e7e7e;
+                    font-size: 13px;
+                }
+            }
+
+            .right-box-b{
+                ul{
+                    display: flex;
+                    color: #7e7e7e;
+                    font-size: 13px;
+                    list-style: none;
+                    column-gap: 15px;
+
+                    li{
+                        font-weight: 600;
+                        &:hover{
+                            color: white;
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+            }
         }
     }
 
