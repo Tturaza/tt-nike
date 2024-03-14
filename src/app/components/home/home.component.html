@@ -17,10 +17,12 @@
             </div>
     
             <div class="classics-spotlight">
-                <div class="card-slide">
-                    <ng-container *ngFor="let shoe of classicShoes">
+                <div class="card-slide" #carousel>
+                    <button (click)="prevSlide()" >Previous</button>
+                    <ng-container *ngFor="let shoe of classicShoes" >
                         <img [src]="shoe.image" [routerLink]="['/shoeDetails/' , shoe.id]">
-                    </ng-container>    
+                    </ng-container>  
+                    <button (click)="nextSlide()">Next</button>
                 </div>
                 
             </div>

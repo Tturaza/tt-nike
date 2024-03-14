@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, QueryList, ViewChildren } from '@angular/core';
+import { Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { MyServiceService } from 'src/app/service/my-service.service';
 
 @Component({
@@ -44,7 +44,6 @@ export class HomeComponent implements OnInit {
 
 
 
-
   popularShoes : any;
   classicShoes : any;
 
@@ -74,4 +73,34 @@ export class HomeComponent implements OnInit {
   }
 
   
+@ViewChild('carousel') carousel!: ElementRef;
+slideIndex = 0
+
+  prevSlide(){
+    this.showSlide(this.slideIndex -= 1)
+  }
+
+  nextSlide(){
+    this.showSlide(this.slideIndex += 1)
+  }
+
+  showSlide(n:number){
+    const slides = this.carousel.nativeElement.querySelectorAll('.card-slide img');
+
+    if(n >= slides.length){
+      this.slideIndex = 0
+    }
+    if(n < 0){
+      this.slideIndex = slides.length - 1
+    }
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+
+    slides[this.slideIndex].style.display = 'block';
+  }
+
+  
+
 }
