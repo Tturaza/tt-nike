@@ -88,6 +88,15 @@
         "image": "assets/popular-images/shoe-ten.png",
         "description": "",
         "style" : "Golf Shoes"
+      },
+      
+      {
+        "id": 11,
+        "name": "Nike Dunk Low",
+        "price": 90,
+        "image": "assets/popular-images/shoe-eleven.png",
+        "description": "",
+        "style" : "Big Kids' Shoes"
       }
 
     ]

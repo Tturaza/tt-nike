@@ -7,12 +7,14 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShoeDetailsComponent } from './components/shoe-details/shoe-details.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ShoeDetailsComponent
+    ShoeDetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

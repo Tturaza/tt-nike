@@ -18,11 +18,15 @@
     
             <div class="classics-spotlight">
                 <div class="card-slide" #carousel>
-                    <button (click)="prevSlide()" >Previous</button>
+               
+                    <ng-container *ngFor="let shoe of classicShoes" >
+                        <img [src]="shoe.image" [routerLink]="['/shoeDetails/' , shoe.id]">
+                    </ng-container> 
                     <ng-container *ngFor="let shoe of classicShoes" >
                         <img [src]="shoe.image" [routerLink]="['/shoeDetails/' , shoe.id]">
                     </ng-container>  
-                    <button (click)="nextSlide()">Next</button>
+               
+
                 </div>
                 
             </div>
@@ -43,6 +47,34 @@
                         </div>
                     </ng-container>
                 </div>
+            </div>
+
+
+            <div class="trendig">
+                <h1>Trendig</h1>
+
+                <div class="trendig-box">
+                    <div>
+                        <div>
+                            <img class="trendig-images" src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/6aa6a559-e1b7-4d4b-ab1d-61548cbb444c/nike-just-do-it.jpg" alt="">
+                            <h2>New in : Nike Ultrafly</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img class="trendig-images" src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/9244bdba-3147-475d-bbff-44ba55a2af1a/nike-just-do-it.jpg" alt="">
+                            <h2>Timeless Fits</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img class="trendig-images" src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/2de4c581-6884-4db7-98af-0b3dbd38fe64/nike-just-do-it.jpg" alt="">
+                            <h2>Nike Basketball"s Latest</h2>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
         
