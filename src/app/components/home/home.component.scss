@@ -13,6 +13,10 @@
             .mphoto-description-div{
                 text-align: center;
                 font-family: "Roboto", sans-serif;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
 
                 .first-p{font-size: 16px; font-weight: 500;}
                 .seconde-h1{font-size: 76px;  font-weight: 700; }
@@ -21,7 +25,14 @@
 
             .classics-spotlight{
                 overflow: hidden;
-                padding: 60px 0;
+                margin-top: 170px;
+
+                .classic-title{
+                    padding-bottom: 45px;
+                    padding-left: 40px;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
                
 
                 &:hover{
@@ -47,11 +58,12 @@
 
             .popular-right-now-div{
                     width: 100%;
-                    padding-top: 60px;
-                    padding-bottom: 60px;
+                    margin-top: 140px;
 
                     .title-popular{
-                        padding: 0 40px 30px;
+                        padding: 0 40px 45px;
+                        font-size: 30px;
+                        font-weight: 500;
                     }
 
                     .card{
@@ -83,11 +95,19 @@
 
 
             .trendig{
-                padding: 60px 40px;
+                padding: 0px 40px;
+                margin-top: 140px;
+                padding-bottom: 90px;
+
+                    .trending-title{
+                        font-size: 30px;
+                        font-weight: 500;
+                    }
+
                 .trendig-box{
                     display: flex;
                     justify-content: space-between;
-                    padding-top: 30px;
+                    padding-top: 45px;
 
                     .trending-single-card{
                        
