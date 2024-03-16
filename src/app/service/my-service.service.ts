@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 export class MyServiceService {
 
   private URL = "assets/popular-right-now.json"
-  private PopularURL = "assets/classic-shoe.json"
+  private ClassicURL = "assets/classic-shoe.json"
 
   constructor(private http : HttpClient) { }
 
@@ -17,6 +17,16 @@ export class MyServiceService {
   }
 
   getClassicProduct(): Observable <any>{
-    return this.http.get<any>(this.PopularURL)
+    return this.http.get<any>(this.ClassicURL)
+  }
+
+  getShoeDetails(id :any): Observable <any> {
+    return  this.http.get<any>(this.URL , id)
+
+  }
+
+  getClassicShoeDetails() : Observable <any>{
+    return this.http.get<any>(this.ClassicURL)
+
   }
 }
