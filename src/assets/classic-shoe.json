@@ -44,5 +44,107 @@
       "description": "",
       "style" : ""
     }
+  ],
+
+  "popularRightNow": [
+    {
+      "id": 1,
+      "name": "Nike Dunk Low",
+      "price": 130,
+      "image": "assets/popular-images/shoe-one.png",
+      "description": "",
+      "style" : "Women's Shoes"
+    },
+
+    {
+      "id": 2,
+      "name": "Air Jordan 1 Retro High SP",
+      "price": 200,
+      "image":"assets/popular-images/shoe-two.png",
+      "description": "",
+      "style" : "Women's Shoes"
+    },
+
+    {
+      "id": 3,
+      "name": "Nike V2K Run",
+      "price": 110,
+      "image": "assets/popular-images/shoe-three.png",
+      "description": "",
+      "style" : "Shoes"
+    },
+
+    {
+      "id": 4,
+      "name": "Nike Zoom Vomero 5",
+      "price": 160,
+      "image": "assets/popular-images/shoe-four.png",
+      "description": "",
+      "style" : "Men's Shoes"
+    },
+
+    {
+      "id": 5,
+      "name": "Air Jordan 3 Retro Craft 'Ivory'",
+      "price": 210,
+      "image": "assets/popular-images/shoe-five.png",
+      "description": "",
+      "style" : "Men's Shoes"
+    },
+    
+    {
+      "id": 6,
+      "name": "Sabrina 1 'BKLYN's Finest'",
+      "price": 130,
+      "image": "assets/popular-images/shoe-six.png",
+      "description": "",
+      "style" : "Basketball Shoes"
+    },
+
+    {
+      "id": 7,
+      "name": "Nike Air Max 1",
+      "price": 140,
+      "image": "assets/popular-images/shoe-seven.png",
+      "description": "",
+      "style" : "Women's Shoes"
+    },
+
+    {
+      "id": 8,
+      "name": "Nike Air Max Plus Drift ",
+      "price": 185,
+      "image": "assets/popular-images/shoe-eight.png",
+      "description": "",
+      "style" : "Men's Shoes"
+    },
+
+    {
+      "id": 9,
+      "name": "Nike Dunk Low Retro",
+      "price": 125,
+      "image": "assets/popular-images/shoe-nine.png",
+      "description": "",
+      "style" : "Men's Shoes"
+    },
+    
+    {
+      "id": 10,
+      "name": "Air Jordan 1 Low G",
+      "price": 150,
+      "image": "assets/popular-images/shoe-ten.png",
+      "description": "",
+      "style" : "Golf Shoes"
+    },
+    
+    {
+      "id": 11,
+      "name": "Nike Dunk Low",
+      "price": 90,
+      "image": "assets/popular-images/shoe-eleven.png",
+      "description": "",
+      "style" : "Big Kids' Shoes"
+    }
+
   ]
 }

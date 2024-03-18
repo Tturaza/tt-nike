@@ -13,26 +13,28 @@ export class ShoeDetailsComponent implements OnInit{
   singleClassicShoe : any
 
   ngOnInit(): void {
-   const classicId = this.activedR.snapshot.paramMap.get("id")
-    this.getedClassicItem(classicId)
+   
+    this.getedClassicItem()
   }
 
 
 
-  getedClassicItem (id :any){
+  getedClassicItem (){
+    const classicId = this.activedR.snapshot.paramMap.get("id")
     this.serv.getClassicShoeDetails().subscribe(respo =>{
       const details = respo.classicShoe
       if(details){
        details.forEach((shoe:any) => {
-          if(shoe.id.toString() === id){
+          if(shoe.id.toString() === classicId){
               this.singleClassicShoe = shoe
               console.log(this.singleClassicShoe)
           }       
        });
       }
     })
-
   }
+
+  
   
 }
 

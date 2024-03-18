@@ -20,8 +20,8 @@ export class MyServiceService {
     return this.http.get<any>(this.ClassicURL)
   }
 
-  getShoeDetails(id :any): Observable <any> {
-    return  this.http.get<any>(this.URL , id)
+  getPopularShoeDetails(): Observable <any> {
+    return  this.http.get<any>(this.URL)
 
   }
 
