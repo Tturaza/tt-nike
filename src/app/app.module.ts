@@ -10,6 +10,7 @@ import { ShoeDetailsComponent } from './components/shoe-details/shoe-details.com
 import { FooterComponent } from './components/footer/footer.component';
 import { MenComponentComponent } from './components/men-component/men-component.component';
 import { WomenComponentComponent } from './components/women-component/women-component.component';
+import { KidsComponentComponent } from './components/kids-component/kids-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { WomenComponentComponent } from './components/women-component/women-comp
     ShoeDetailsComponent,
     FooterComponent,
     MenComponentComponent,
-    WomenComponentComponent
+    WomenComponentComponent,
+    KidsComponentComponent
   ],
   imports: [
     BrowserModule,

@@ -58,7 +58,7 @@ export class HomeComponent implements OnInit {
 
 
   getPopularRightNow(){
-    this.serv.getPopularRightNow().subscribe( respo => {
+    this.serv.getClassicProduct().subscribe( respo => {
       this.popularShoes = respo.popularRightNow
       console.log(this.popularShoes)
     })

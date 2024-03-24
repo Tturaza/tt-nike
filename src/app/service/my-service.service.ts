@@ -12,17 +12,8 @@ export class MyServiceService {
 
   constructor(private http : HttpClient) { }
 
-  getPopularRightNow(): Observable <any>{
-    return this.http.get<any>(this.URL)
-  }
-
   getClassicProduct(): Observable <any>{
     return this.http.get<any>(this.ClassicURL)
-  }
-
-  getPopularShoeDetails(): Observable <any> {
-    return  this.http.get<any>(this.URL)
-
   }
 
   getClassicShoeDetails() : Observable <any>{
