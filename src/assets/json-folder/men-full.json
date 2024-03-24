@@ -1,0 +1,98 @@
+{
+  "shoes":[
+    {
+        "id": 1,
+        "name" : "",
+        "price" : 0,
+        "image" : "assets/men's-image/shoes/pirveli.png",
+        "description" : "",
+        "style" : ""
+    },
+
+    {
+      "id": 2,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/meore.png",
+      "description" : "",
+      "style" : ""
+
+    },
+    
+    {
+      "id": 3,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/mesame.png",
+      "description" : "",
+      "style" : ""
+
+    },
+
+    {
+      "id": 4,
+      "name" : "",
+      "price" : 0,
+      "image" :  "assets/men's-image/shoes/meotxe.png",
+      "description" : "",
+      "style" : ""
+
+    },
+
+    {
+      "id": 5,
+      "name" : "",
+      "price" : 0,
+      "image" :  "assets/men's-image/shoes/mexute.png",
+      "description" : "",
+      "style" : ""
+    },
+    
+    {
+      "id": 6,
+      "name" : "",
+      "price" : 0,
+      "image" :  "assets/men's-image/shoes/meekvse.png",
+      "description" : "",
+      "style" : ""
+    },
+
+    {
+      "id": 7,
+      "name" : "",
+      "price" : 0,
+      "image" :  "assets/men's-image/shoes/meshvide.png",
+      "description" : "",
+      "style" : ""
+    },
+
+    {
+      "id": 8,
+      "name" : "",
+      "price" : 0,
+      "image" :  "assets/men's-image/shoes/merve.png",
+      "description" : "",
+      "style" : ""
+    },
+
+    {
+      "id": 9,
+      "name" : "",
+      "price" : 0,
+      "image" :  "assets/men's-image/shoes/mecxre.png",
+      "description" : "",
+      "style" : ""
+    }
+
+  ],
+
+  "Clothings":[
+    {
+      
+    }
+  ],
+
+  "Accessories":[
+    {}
+  ]
+}
