@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MyServiceService {
 
-  private URL = "assets/popular-right-now.json"
-  private ClassicURL = "assets/classic-shoe.json"
+ 
+  private ClassicURL = "assets/json-folder/classic-shoe.json"
 
   constructor(private http : HttpClient) { }
 

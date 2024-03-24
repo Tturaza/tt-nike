@@ -16,41 +16,41 @@ export class ShoeDetailsComponent implements OnInit{
    
     this.getedClassicItem()
   }
-
-
-
-  getedClassicItem (){
-    const classicId = this.activedR.snapshot.paramMap.get("id")
-    this.serv.getClassicShoeDetails().subscribe(respo =>{
-      const details = respo.classicShoe
-      if(details){
-       details.forEach((shoe:any) => {
-          if(shoe.id.toString() === classicId){
-              this.singleClassicShoe = shoe
-              console.log(this.singleClassicShoe)
-          }       
-       });
+  
+  
+  getedClassicItem(){
+    const classicIdParam = this.activedR.snapshot.paramMap.get("id")
+    if(classicIdParam){
+      const classicId = parseInt(classicIdParam, 10)
+      if(!isNaN(classicId) && classicId < 6){
+        this.serv.getClassicShoeDetails().subscribe(respo =>{
+          const classicDetails = respo.classicShoe
+          if(classicDetails){
+            classicDetails.forEach((shoe:any) =>{
+              if(shoe.id.toString() === classicIdParam){
+                this.singleClassicShoe =shoe
+                console.log(this.singleClassicShoe)
+              }
+            })
+          }
+        })
+      }else if(!isNaN(classicId) && classicId >=6){
+        this.serv.getClassicShoeDetails().subscribe(respo =>{
+          const popularDetails = respo.popularRightNow
+          if(popularDetails){
+            popularDetails.forEach((shoe:any)=>{
+              if(shoe.id.toString() === classicIdParam){
+                this.singleClassicShoe = shoe
+                console.log(this.singleClassicShoe)
+              }
+            })
+          }
+        })
       }
-    })
+    }
   }
 
   
   
 }
 
- // this.getClassicItem()
-// getClassicItem (){
-//   const itemId = this.activedR.snapshot.paramMap.get('id')
-
-//   if(itemId){
-//     this.serv.getClassicShoeDetails().subscribe(respo =>{
-//       const classicObj = respo?.classicShoe
-  
-//       if(classicObj){
-//         const singleItem = Object.values(classicObj).find((shoe:any)=>shoe.id === itemId)
-//         console.log(singleItem)
-//       }
-//     })
-//   }
-
-// }

@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MenComponentComponent } from './components/men-component/men-component.component';
 import { WomenComponentComponent } from './components/women-component/women-component.component';
 import { KidsComponentComponent } from './components/kids-component/kids-component.component';
+import { CardComponentComponent } from './components/card-component/card-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { KidsComponentComponent } from './components/kids-component/kids-compone
     FooterComponent,
     MenComponentComponent,
     WomenComponentComponent,
-    KidsComponentComponent
+    KidsComponentComponent,
+    CardComponentComponent
   ],
   imports: [
     BrowserModule,
