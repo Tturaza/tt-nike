@@ -88,11 +88,152 @@
 
   "Clothings":[
     {
-      
+      "id": 10,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 11,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 12,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 13,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 14,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 15,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 16,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 17,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 18,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
     }
+  
   ],
 
   "Accessories":[
-    {}
+    {
+      "id": 19,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 20 ,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 21,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 22,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 23,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 24,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 25,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 26,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    },
+    {
+      "id": 27,
+      "name" : "",
+      "price" : 0,
+      "image" : "assets/men's-image/shoes/pirveli.png",
+      "description" : "",
+      "style" : ""
+    }
   ]
 }
