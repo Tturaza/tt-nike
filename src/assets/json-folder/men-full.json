@@ -1,239 +1,242 @@
 {
-  "shoes":[
-    {
-        "id": 1,
-        "name" : "",
-        "price" : 0,
-        "image" : "assets/men's-image/shoes/pirveli.png",
-        "description" : "",
-        "style" : ""
-    },
-
-    {
-      "id": 2,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/meore.png",
-      "description" : "",
-      "style" : ""
-
-    },
-    
-    {
-      "id": 3,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/mesame.png",
-      "description" : "",
-      "style" : ""
-
-    },
-
-    {
-      "id": 4,
-      "name" : "",
-      "price" : 0,
-      "image" :  "assets/men's-image/shoes/meotxe.png",
-      "description" : "",
-      "style" : ""
-
-    },
-
-    {
-      "id": 5,
-      "name" : "",
-      "price" : 0,
-      "image" :  "assets/men's-image/shoes/mexute.png",
-      "description" : "",
-      "style" : ""
-    },
-    
-    {
-      "id": 6,
-      "name" : "",
-      "price" : 0,
-      "image" :  "assets/men's-image/shoes/meekvse.png",
-      "description" : "",
-      "style" : ""
-    },
-
-    {
-      "id": 7,
-      "name" : "",
-      "price" : 0,
-      "image" :  "assets/men's-image/shoes/meshvide.png",
-      "description" : "",
-      "style" : ""
-    },
-
-    {
-      "id": 8,
-      "name" : "",
-      "price" : 0,
-      "image" :  "assets/men's-image/shoes/merve.png",
-      "description" : "",
-      "style" : ""
-    },
-
-    {
-      "id": 9,
-      "name" : "",
-      "price" : 0,
-      "image" :  "assets/men's-image/shoes/mecxre.png",
-      "description" : "",
-      "style" : ""
-    }
-
-  ],
-
-  "Clothings":[
-    {
-      "id": 10,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 11,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 12,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 13,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 14,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 15,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 16,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 17,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 18,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    }
+  "men":{
+    "shoes":[
+      {
+          "id": 1,
+          "name" : "Nike SB Force 58",
+          "price" : 80,
+          "image" : "assets/men's-image/shoes/pirveli.png",
+          "description" : "Skate Shoes",
+          "style" : ""
+      },
   
-  ],
-
-  "Accessories":[
-    {
-      "id": 19,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 20 ,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 21,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 22,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 23,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 24,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 25,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 26,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    },
-    {
-      "id": 27,
-      "name" : "",
-      "price" : 0,
-      "image" : "assets/men's-image/shoes/pirveli.png",
-      "description" : "",
-      "style" : ""
-    }
-  ]
+      {
+        "id": 2,
+        "name" : "Nike P-6000 Premium",
+        "price" : 120,
+        "image" : "assets/men's-image/shoes/meore.png",
+        "description" : "Shoes",
+        "style" : ""
+  
+      },
+      
+      {
+        "id": 3,
+        "name" : "Nike Pegasus 40",
+        "price" : 140,
+        "image" : "assets/men's-image/shoes/mesame.png",
+        "description" : "Men's Road Running Shoes ",
+        "style" : ""
+  
+      },
+  
+      {
+        "id": 4,
+        "name" : "Nike Dunk Low Retro",
+        "price" : 125,
+        "image" :  "assets/men's-image/shoes/meotxe.png",
+        "description" : "Men's Shoes",
+        "style" : ""
+  
+      },
+  
+      {
+        "id": 5,
+        "name" : "Nike G.T. Jump 2",
+        "price" : 180,
+        "image" :  "assets/men's-image/shoes/mexute.png",
+        "description" : "Men's Basketball Shoes",
+        "style" : ""
+      },
+      
+      {
+        "id": 6,
+        "name" : "Nike Air Max 90 DORE-TEX",
+        "price" : 160,
+        "image" :  "assets/men's-image/shoes/meekvse.png",
+        "description" : "Men's Shoes",
+        "style" : ""
+      },
+  
+      {
+        "id": 7,
+        "name" : "Nike Air Force 1'07",
+        "price" : 135,
+        "image" :  "assets/men's-image/shoes/meshvide.png",
+        "description" : "Men's Shoes",
+        "style" : ""
+      },
+  
+      {
+        "id": 8,
+        "name" : "Nike Air Force 1'07",
+        "price" : 135,
+        "image" :  "assets/men's-image/shoes/merve.png",
+        "description" : "Men's Shoes",
+        "style" : ""
+      },
+  
+      {
+        "id": 9,
+        "name" : "Nike Air Force 1'07 LV8" ,
+        "price" : 125,
+        "image" :  "assets/men's-image/shoes/mecxre.png",
+        "description" : "Men's Shoes",
+        "style" : ""
+      }
+  
+    ],
+  
+    "Clothings":[
+      {
+        "id": 10,
+        "name" : "Men's Pullover Hoodie",
+        "price" : 120,
+        "image" : "assets/men's-image/Clothings/1.png",
+        "description" : "Nike Sportsweat Tech Fleence",
+        "style" : ""
+      },
+      {
+        "id": 11,
+        "name" : "Men's Open-Hem Sweatpants",
+        "price" : 130,
+        "image" : "assets/men's-image/Clothings/2.png",
+        "description" : "Nike Sportsweat Tech Fleence",
+        "style" : ""
+      },
+      {
+        "id": 12,
+        "name" : "Men's Dri-FIT 7 Unlined Versatile Shorts ",
+        "price" : 60,
+        "image" : "assets/men's-image/Clothings/3.png",
+        "description" : "Nike Unlimited",
+        "style" : ""
+      },
+      {
+        "id": 13,
+        "name" : "Men's Dri-FIT Short-Sleeve Versatile Top",
+        "price" : 55,
+        "image" : "assets/men's-image/Clothings/4.png",
+        "description" : "Nike Primary",
+        "style" : ""
+      },
+      {
+        "id": 14,
+        "name" : "Men's T-Shirt",
+        "price" : 40,
+        "image" : "assets/men's-image/Clothings/5.png",
+        "description" : "Nike Sportswaer",
+        "style" : ""
+      },
+      {
+        "id": 15,
+        "name" : "Men's Repel Running Jacket",
+        "price" : 125,
+        "image" : "assets/men's-image/Clothings/6.png",
+        "description" : "Nike Windrunner",
+        "style" : ""
+      },
+      {
+        "id": 16,
+        "name" : "Men's Dri-FIT Short-Sleeve Running Top",
+        "price" : 65,
+        "image" : "assets/men's-image/Clothings/7.png",
+        "description" : "Nike Trail Solar Chase",
+        "style" : ""
+      },
+      {
+        "id": 17,
+        "name" : "Men's Knit Open-Hem Pants",
+        "price" : 55,
+        "image" : "assets/men's-image/Clothings/8.png",
+        "description" : "Nike Sportswaer Club",
+        "style" : ""
+      },
+      {
+        "id": 18,
+        "name" : "Training Ankle Socks (6 Pairs)",
+        "price" : 28,
+        "image" : "assets/men's-image/Clothings/9.png",
+        "description" : "Nike Everyday Plus Cushioned",
+        "style" : ""
+      }
+    
+    ],
+  
+    "Accessories":[
+      {
+        "id": 19,
+        "name" : "Duffel Bag (57L)",
+        "price" : 62,
+        "image" : "assets/men's-image/Accessories/1.png",
+        "description" : "Nike Hoops Elite",
+        "style" : ""
+      },
+      {
+        "id": 20 ,
+        "name" : "Unstructured Futura Wash Cap",
+        "price" : 26,
+        "image" : "assets/men's-image/Accessories/2.png",
+        "description" : "Nike Club",
+        "style" : ""
+      },
+      {
+        "id": 21,
+        "name" : "Drawstring Bag (17L)",
+        "price" : 26,
+        "image" : "assets/men's-image/Accessories/3.png",
+        "description" : "Nike Hoops Elite",
+        "style" : ""
+      },
+      {
+        "id": 22,
+        "name" : "Strech Woven Belt",
+        "price" : 55,
+        "image" : "assets/men's-image/Accessories/4.png",
+        "description" : "Nike",
+        "style" : ""
+      },
+      {
+        "id": 23,
+        "name" : "Golf Bag",
+        "price" : 280,
+        "image" : "assets/men's-image/Accessories/5.png",
+        "description" : "Nike Air Hybrid 2",
+        "style" : ""
+      },
+      {
+        "id": 24,
+        "name" : "Men's Terry Headband",
+        "price" : 20,
+        "image" : "assets/men's-image/Accessories/6.png",
+        "description" : "Nike Fury",
+        "style" : ""
+      },
+      {
+        "id": 25,
+        "name" : "Bucket Hat",
+        "price" : 34,
+        "image" : "assets/men's-image/Accessories/7.png",
+        "description" : "Nike Dri-FIT Apex",
+        "style" : ""
+      },
+      {
+        "id": 26,
+        "name" : "Soccer Shin Guards",
+        "price" : 24,
+        "image" : "assets/men's-image/Accessories/8.png",
+        "description" : "Nike Mercurial Lite",
+        "style" : ""
+      },
+      {
+        "id": 27,
+        "name" : "Handheld Water Bottle",
+        "price" : 20,
+        "image" : "assets/men's-image/Accessories/9.png",
+        "description" : "Nike 12 oz Stride",
+        "style" : ""
+      }
+    ]
+  }
+ 
 }
