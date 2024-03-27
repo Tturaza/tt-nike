@@ -1,0 +1,25 @@
+<div *ngIf="mensData">
+    <h2>Men's Shoes</h2>
+    <div *ngFor="let shoe of mensData.men.shoes">
+      <img [src]="shoe.image" alt="{{ shoe.name }}">
+      <h3>{{ shoe.name }}</h3>
+      <p>{{ shoe.description }}</p>
+      <p>Price: ${{ shoe.price }}</p>
+
+      
+  <h2>Men's Clothing</h2>
+  <div *ngFor="let clothing of mensData.men.Clothings">
+    <img [src]="clothing.image" alt="{{ clothing.name }}">
+    <h3>{{ clothing.name }}</h3>
+    <p>{{ clothing.description }}</p>
+    <p>Price: ${{ clothing.price }}</p>
+  </div>
+
+  <h2>Men's Accessories</h2>
+  <div *ngFor="let accessory of mensData.men.Accessories">
+    <img [src]="accessory.image" alt="{{ accessory.name }}">
+    <h3>{{ accessory.name }}</h3>
+    <p>{{ accessory.description }}</p>
+    <p>Price: ${{ accessory.price }}</p>
+  </div>
+</div>
